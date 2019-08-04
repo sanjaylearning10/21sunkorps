@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38597" started-at="2019-08-04T19:12:50Z" finished-at="2019-08-04T19:13:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38597" started-at="2019-08-04T19:12:50Z" finished-at="2019-08-04T19:13:29Z">
+      <class name="com.amazon.tests.CartTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.amazon.tests.CartTest@4563e9ab]" name="launchBrowser" is-config="true" duration-ms="8999" started-at="2019-08-05T00:42:41Z" finished-at="2019-08-05T00:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.tests.CartTest@4563e9ab]" name="setup" is-config="true" duration-ms="146" started-at="2019-08-05T00:42:50Z" finished-at="2019-08-05T00:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addProductToCart()[pri:0, instance:com.amazon.tests.CartTest@4563e9ab]" name="addProductToCart" duration-ms="37817" started-at="2019-08-05T00:42:51Z" finished-at="2019-08-05T00:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazon.tests.CartTest@4563e9ab]" name="tearDown" is-config="true" duration-ms="614" started-at="2019-08-05T00:43:28Z" finished-at="2019-08-05T00:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=CartTest.addProductToCart()[pri:0, instance:com.amazon.tests.CartTest@4563e9ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.amazon.tests.CartTest@4563e9ab]" name="closeBrowser" is-config="true" duration-ms="815" started-at="2019-08-05T00:43:29Z" finished-at="2019-08-05T00:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.amazon.tests.CartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
